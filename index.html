@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+    <title>Spotify- Web Player: Music for everyone</title>
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert close" src="img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p1">
+                <div class="logo"><img width="100px" class="invert" src="img/logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="img/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="img/search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p1">
+                <div class="heading">
+                    <img class="invert" src="img/playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+
+                <div class="songlist">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/" aria-label="Legal"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/privacy/" aria-label="Privacy Center"><span>Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                            aria-label="Privacy Policy"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                            aria-label="Cookies"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                            aria-label="About Ads"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"
+                            aria-label="Accessibility"><span>Accessibility</span></a></div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerCont">
+                        <img class="invert hamburger" src="img/hamburger.svg" alt="">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div data-folder="Taylor" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/Taylor/cover.jpg" alt="">
+                        <h2>This is Taylor Swift!</h2>
+                        <p>Experience a gush of dopamine as you grove to the best of Swift!</p>
+
+                    </div>
+
+                    <div data-folder="Bollywood" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/Bollywood/cover.jpg" alt="">
+                        <h2>Your Bollywood Saga</h2>
+                        <p>All that you need to blow your mind with a trail of emotions</p>
+
+                    </div>
+
+                    <div data-folder="English" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/English/cover.jpg" alt="">
+                        <h2>English Wrap</h2>
+                        <p>Vibe to the melodies of your favourite artists-</p>
+
+                    </div>
+
+                    <div data-folder="Devotional" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/Devotional/cover.jpg" alt="">
+                        <h2>Devotional</h2>
+                        <p>An easy excape into the world of spirituality ~</p>
+
+                    </div>
+
+                    <div data-folder="Punjabi" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/Punjabi/cover.jpg" alt="">
+                        <h2>Punjabi Hits!</h2>
+                        <p>Boost your mood and rock your feet, with our list of Punjabi Mix </p>
+
+                    </div>
+
+                    <div data-folder="Global" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/Global/cover.jpg" alt="">
+                        <h2>Globally Played</h2>
+                        <p>Travel across the globe with our amazing list of Global hits</p>
+
+                    </div>
+
+                    <div data-folder="KK" class="card">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" fill=#000
+                            stroke-linejoin="round" />
+                            </svg>
+                            </div>
+                        <img src="songs/KK/cover.jpg" alt="">
+                        <h2>The Best of KK</h2>
+                        <p>Lose your heart and soul to the magical voice of KK</p>
+
+                    </div>
+
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="aboveBar">
+                        <div class="songInfo">
+
+                        </div>
+                        <div class="songbuttons">
+                            <img id="previous" src="img/prev.svg" alt="">
+                            <img id="play" src="img/pause.svg" alt="">
+                            <img id="next" src="img/next.svg" alt="">
+                        </div>
+                        <div class="songTime">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        console.log('Welcome to spotify!');
+        let currentSong = new Audio();
+        let songs;
+        let currFolder;
+
+        function secondsToMinutesSeconds(seconds) {
+            if (isNaN(seconds) || typeof seconds !== 'number') {
+                return '00:00'; // Return a default value for undefined or NaN
+            }
+
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = Math.floor(seconds % 60);
+
+            const formattedMinutes = String(minutes).padStart(2, '0');
+            const fromattedSeconds = String(remainingSeconds).padStart(2, '0');
+
+            return `${formattedMinutes}:${fromattedSeconds}`;
+        }
+
+        async function getSongs(folder) {
+            currFolder=folder;
+            let a = await fetch(`http://127.0.0.1:5500/${folder}`)
+            let response = await a.text();
+            let div = document.createElement("div");
+            div.innerHTML = response;
+            let as = div.getElementsByTagName("a");
+            songs = []
+            for (let index = 0; index < as.length; index++) {
+                const element = as[index];
+                if (element.href.endsWith(".mp3")) {
+                    songs.push(element.href.split(`/${folder}/`)[1])
+                }
+            }
+
+            // Show all songs in the playlist
+            let songUL = document.querySelector(".songlist").getElementsByTagName("ul")[0]
+            songUL.innerHTML = ""
+            for (const song of songs) {
+                songUL.innerHTML = songUL.innerHTML + `<li><img class= "invert" src="img/music.svg" alt="" class="src">
+                            <div class="info">
+                                <div> ${song.replaceAll("%20", " ").replaceAll("%26", " ")}</div>
+                                <div> Akanksha </div>
+                            </div>
+                            <div class="playnow">
+                                <span> Play Now</span>
+                                <img class ="invert " src="img/play.svg" alt="" class="scr">
+                            </div></li>`;
+
+            }
+
+            // Attach an event listener to each song
+            Array.from(document.querySelector(".songlist").getElementsByTagName("li")).forEach(e => {
+                e.addEventListener("click", element => {
+                    playMusic(e.querySelector(".info").firstElementChild.innerHTML.trim())
+                })
+            }) 
+            return songs
+
+        }
+
+        const playMusic = (track, pause = false) => {
+            //let audio= new Audio("/songs/" + track)
+            currentSong.src = `/${currFolder}/` + track
+            if (!pause) {
+                currentSong.play();
+                play.src = "img/pause.svg";
+            }
+            document.querySelector(".songInfo").innerHTML = decodeURIComponent(track);
+            document.querySelector(".songTime").innerHTML = " 00:00 / 00:00"
+
+
+        }
+
+        async function main() {
+
+            // Getting the lists of the songs
+            await getSongs("songs/Taylor");
+            playMusic(songs[0], true)
+
+            //Attach an event listener to previous, play and next
+            play.addEventListener("click", () => {
+                if (currentSong.paused) {
+                    currentSong.play();
+                    play.src = "img/pause.svg";
+                }
+                else {
+                    currentSong.pause();
+                    play.src = "img/play.svg";
+                }
+            })
+
+            //Listen for timeupdate event
+            currentSong.addEventListener("timeupdate", () => {
+                console.log(currentSong.currentTime, currentSong.duration);
+                document.querySelector(".songTime").innerHTML = `${secondsToMinutesSeconds(currentSong.currentTime)}
+                /${secondsToMinutesSeconds(currentSong.duration)}`
+                document.querySelector(".circle").style.left = (currentSong.currentTime / currentSong.duration) * 100 + "%";
+            })
+
+            //Add a event listener to seekbar
+            document.querySelector(".seekbar").addEventListener("click", e => {
+                let percent = (e.offsetX / e.target.getBoundingClientRect().width) * 100;
+                document.querySelector(".circle").style.left = percent + "%";
+                currentSong.currentTime = ((currentSong.duration) * percent) / 100;
+            })
+
+            //Add and event listener to Hamburger
+            document.querySelector(".hamburger").addEventListener("click", () => {
+                document.querySelector(".left").style.left = "0"
+            })
+
+            //Add and event listener to close button
+            document.querySelector(".close").addEventListener("click", () => {
+                document.querySelector(".left").style.left = "-120%"
+            })
+
+            //Add an event listenser to previous
+            previous.addEventListener("click", () => {
+                console.log("Previous clicked");
+                let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0])
+                if (index + 1 > 0) {
+                    playMusic(songs[index - 1])
+                }
+            })
+
+            //Add an event listenser to next
+            next.addEventListener("click", () => {
+                console.log("Next clicked");
+                let index = songs.indexOf(currentSong.src.split("/").slice(-1)[0])
+                if (index + 1 < songs.length) {
+                    playMusic(songs[index + 1])
+                }
+            })
+
+            //Load playlist whenever card is clicked
+            Array.from(document.getElementsByClassName("card")).forEach(e => { 
+            e.addEventListener("click", async item => {
+            console.log("Fetching Songs")
+            songs = await getSongs(`songs/${item.currentTarget.dataset.folder}`)  
+            playMusic(songs[0])
+                })
+            })
+
+
+            
+           
+
+        }
+
+        main()
+
+
+    </script>
+
+</body>
+
+</html>
